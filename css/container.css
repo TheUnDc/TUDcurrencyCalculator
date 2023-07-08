@@ -1,0 +1,19 @@
+/*container.css "podobno da sie do codepen dac 4 pliki css?"*/
+.container {
+    max-width: 700px;
+    padding: 0 20px;
+    margin: 20px auto;
+}
+
+.body {
+    background-image: url("https://i.postimg.cc/50nykkZY/currency-backgrounddalle-kopia.jpg");
+    background-position: 180px auto;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 17px;
+}
+
+.paragraph__margin {
+    margin: auto;
+}
