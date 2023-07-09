@@ -52,7 +52,6 @@ formElement.addEventListener("submit", (event) => {
          result = (1) * (writedElement)
    }
    documentResult.value = result.toFixed(2);
-   console.log("Sumbit")
 });
 
 
