@@ -17,7 +17,7 @@ Supported currencies:
 
 Swap currency button make counting even more pleasant! (except for design style from 2010) 
 
-To make this pleasant program i used super advanced technologies like:
+To make this beautifull program i used super advanced technologies like:
 
 Used technology:
 - HTML
@@ -26,6 +26,7 @@ Used technology:
 - Lobotomy (ouch)
 
 Yess! You recived this magnificent tool for freee! (i recived spine pain and headache after the lobotomy).
-## Future upades
+## Future updaes
 -API update. Currency rates will be updating every day! (i dont wanna updatng ratings for my own! its waste of time!)
 
+### Sorry for lame jokes.
