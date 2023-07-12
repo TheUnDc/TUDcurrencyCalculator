@@ -5,9 +5,9 @@
 }
 
 .body {
-    background-image: url("../images/bground.jpg");
-    background-position: 180px auto;
-    background-size: cover;
+    background-image: url("../images/tlo.png");
+    background-position: 250px 0;
+    background-size: contain;
     background-attachment: fixed;
     font-family: 'Orbitron', sans-serif;
     font-size: 17px;
