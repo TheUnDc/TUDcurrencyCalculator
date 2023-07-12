@@ -6,7 +6,7 @@
 
 .body {
     background-image: url("../images/tlo.png");
-    background-position: 250px 0;
+    background-position: auto;
     background-size: cover;
     background-attachment: fixed;
     font-family: 'Orbitron', sans-serif;
