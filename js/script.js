@@ -3,8 +3,13 @@
       console.log("Greetings! JavaScript is working");
    };
 
-   const formElement = document.querySelector(".js-form");
-   const swapButton = document.querySelector(".js-swapButton");
+   const init = () => {
+      doDevGreetings();
+      const formElement = document.querySelector(".js-form");
+      const swapButton = document.querySelector(".js-swapButton");
+      swapButton.addEventListener("click", swapCurrency);
+      formElement.addEventListener("submit", calculateCurrency);
+   };
    
    const swapCurrency = () => {
       const firstElement = document.querySelector(".js-firstInput");
@@ -12,7 +17,7 @@
       const temp = secoundElemenet.value;
       secoundElemenet.value = firstElement.value;
       firstElement.value = temp;
-   }
+   };
 
    const calculateCurrency = (event) => {
       event.preventDefault()
@@ -23,9 +28,9 @@
       const writedAmount = document.querySelector(".js-valueCurrency").value;
       const documentResult = document.querySelector(".js-documentResult");
 
-      const eurUsd = 1.9 //usdEur (1/1.9)
-      const eurPln = 4.4 //plnEur (1/4.4)
-      const usdPln = 4.6 //plnUsd (1/4.6)
+      const eurUsd = 1.9; //usdEur (1/1.9)
+      const eurPln = 4.4; //plnEur (1/4.4)
+      const usdPln = 4.6; //plnUsd (1/4.6)
 
       switch (true) {
          case first ==="EUR" &&second === "USD":
@@ -59,8 +64,5 @@
       documentResult.value = result.toFixed(2);
    }
 
-   
-   doDevGreetings();
-   swapButton.addEventListener("click", swapCurrency);
-   formElement.addEventListener("submit", calculateCurrency);
+   init();
 }
