@@ -7,7 +7,7 @@ Are you tired of calculate currency by your own? Try my Currencycalculator!
 You can check now how much foreign currency you can buy for the selected amount not only a PLN but any other currenrency
 like:
 
-![](images/CurrencyG.gif)
+![](images/CurrencyGifX.gif)
 
 Supported currencies:
 - Euro
