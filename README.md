@@ -1,4 +1,6 @@
 # TUDcurrencyCalculator Przelicznik Walut
+
+## This is the old version of calculator! Now you can check my upgraded version based on free API! Link in Other Version.
 ## [TUDcurrencalculator link](https://theundc.github.io/TUDcurrencyCalculator/)
 
 ## Welcome to the World of money
@@ -13,7 +15,7 @@ Supported currencies:
 - Euro
 - US Dollar
 - Zloty
-- and more!!!! (in future cause im lazy).
+- and more!!!! (in API version).
 
 Swap currency button make counting even more pleasant! (except for design style from 2010) 
 
@@ -26,7 +28,8 @@ Used technology:
 - Lobotomy (ouch)
 
 Yess! You recived this magnificent tool for freee! (i recived spine pain and headache after the lobotomy).
-## Future updaes
--API update. Currency rates will be updating every day! (i dont wanna updatng ratings for my own! its waste of time!)
+## Other Version
+- This is the old version of calculator! Now you can check my upgraded version based on free API!
+[CurrencalculatorAPI link](https://github.com/TheUnDc/TUDcurrencyCalculatorAPI)
 
 ### Sorry for lame jokes.
